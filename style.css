@@ -1,0 +1,380 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header {
+    display: flex;
+    height: 60px;
+    box-shadow: 0px 0px 3px 0px gray;
+    align-items: center;
+    background-color: chocolate;
+    position: fixed;
+    top: 0px;
+    left: 0px;width: 100%;
+    z-index: 2;
+}
+
+.logo {
+    flex: 1;
+    padding-left: 50px;
+    font-size: 30px;
+    color: white;
+}
+
+.menu {
+    flex: 5;
+    display: flex;
+    justify-content: end;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+    margin: 0px 30px;
+}
+
+.menu a:hover {
+    color: white;
+    text-decoration: underline;
+
+}
+
+.slide {
+    background: url(./img5.jpg) no-repeat;
+    height: 600px;
+    background-size: cover;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slide h1 {
+    background: rgb(255, 255, 255);
+    color: chocolate;
+    padding: 10px;
+    opacity: 0.7;
+}
+
+section h3 {
+    color: chocolate;
+}
+
+section {
+    padding: 50px;
+}
+
+.row {
+    display: flex;
+}
+
+.fourcol {
+    flex: 1;
+    padding: 20px;
+    position: relative;
+}
+
+.fourcol img {
+    box-shadow: 1px 1px 1px 1px chocolate;
+    width: 100%;
+    height: 200px;
+
+}
+
+.fourcol p {
+    background-color: chocolate;
+    color: white;
+    padding: 10px 20px;
+    position: absolute;
+    top: 4px;
+    left: 20px;
+}
+
+footer {
+    background-color: chocolate;
+    color: white;
+    text-align: center;
+    padding: 2px;
+    text-align: right;
+}
+
+/* Birthday Cake */
+
+.fivecol {
+    flex: 1;
+    padding: 15px;
+    box-shadow: 1px 1px 1px 1px chocolate;
+}
+
+.fivecol img {
+    width: 100%;
+    height: 150px;
+}
+
+.fivecol p {
+    color: black;
+}
+
+.fivecol button {
+    background-color: chocolate;
+    color: white;
+    padding: 8px 20px;
+    border: none;
+}
+
+.fivecol button:hover {
+    background-color: red;
+}
+
+/* About */
+.para {
+    text-align: justify;
+    width: 50%;
+    line-height: 25px;
+    text-indent: 30px;
+    margin: 25px auto;
+    box-shadow: 1px 1px 10px 1px gray;
+    padding: 10px;
+}
+
+.aboutcol h4 {
+    color: chocolate;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+
+.aboutcol {
+    flex: 1;
+    padding: 15px;
+    box-shadow: 1px 1px 5px 1px chocolate;
+}
+
+.aboutcol img {
+    width: 100%;
+    height: 250px;
+}
+
+/* Contact */
+
+.contact-section {
+    /* padding: 50px 0px 100px; */
+    background: url(./cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTEwL3JtNDY3YmF0Y2g1LXNjZW5lLWgtMDA1Yy14LmpwZw.webp) no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+}
+
+.contact-section .section-title {
+    color: rgb(0, 0, 0);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+}
+
+.contact-section .section-content {
+    display: flex;
+    gap: 48px;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px auto;
+}
+
+.contact-section .content-form {
+    margin: auto 10px;
+    /* box-shadow: 1px 1px 10px 1px gray; */
+    padding: 10px;
+}
+
+.contact-section .contact-list .contact-info {
+    display: flex;
+    gap: 20px;
+}
+
+ul {
+    box-shadow: 1px 15px 30px 1px gray;
+    padding: 10px;
+    text-align: center;
+    margin: auto 10px;
+}
+
+.contact-section .contact-list .contact-info i {
+    font-size: 100px;
+}
+
+.contact-section .content-form .form-input {
+    width: 50%;
+    height: 50px;
+    padding: 0px 12px;
+    margin-bottom: 15px;
+    background: white;
+    border: 1px solid chocolate;
+    border-radius: 7px;
+}
+
+.contact-section .content-form textarea.form-input {
+    height: 100px;
+    padding: 12px;
+}
+
+.contact-section .content-form .submit-button {
+    background-color: chocolate;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 20px;
+    border: 1px solid rgb(255, 255, 255);
+    transition: 0.5s;
+    margin: 0px auto;
+}
+
+.contact-section .content-form .submit-button:hover {
+    background-color: white;
+    color: chocolate;
+    border: 1px solid chocolate;
+}
+
+.section-content i {
+    color: chocolate;
+}
+
+.contact-section .contact-list {
+    /* margin: auto 10px; */
+    margin: 0px 0px 0px 200px;
+}
+
+/* Contact */
+
+/* Service */
+.wrapper {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #fafafa;
+
+}
+
+.wrapper h1 {
+    font-size: 40px;
+    margin: 25px 0px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.content-box {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 1000px;
+    margin-top: 30px;
+}
+
+.card {
+    min-height: 220px;
+    width: 320px;
+    padding: 30px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #fff;
+    margin: 10px 4px;
+    box-shadow: 0px 15px 25px black;
+}
+
+.card i {
+    margin: 20px;
+    color: chocolate;
+}
+
+.card h2 {
+    margin-bottom: 12px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.card p {
+    color: gray;
+    text-align: center;
+}
+
+/* Service */
+
+/* Responsive */
+@media screen and (max-width:750px) {
+    header {
+        flex-flow: column;
+        height: 80px;
+    }
+
+    .logo {
+        margin: 0px 40px 10px 0px;
+    }
+
+    .menu a {
+        margin: 0px 15px;
+    }
+
+    .slide {
+        height: 300px;
+    }
+
+    .row {
+        flex-flow: column;
+    }
+
+    .para {
+        width: 100%;
+    }
+
+    .contact-section .section-content {
+        flex-flow: column;
+    }
+
+    .content-form .form-input {
+        width: 100%;
+        margin: 0px 85px;
+
+    }
+
+    .contact-section .content-form .submit-button {
+        margin: 0px 140px;
+    }
+
+    .contact-section .contact-list {
+        margin: auto;
+    }
+
+    .wrapper {
+        padding: 35px;
+    }
+
+    .wrapper h1 {
+        font-size: 25px;
+        font-weight: 600px;
+    }
+
+    .content-box {
+        flex-flow: column;
+        width: 100%;
+    }
+
+    .card {
+        width: 300px;
+        margin: 10px auto;
+    }
+
+    p {
+        text-align: center;
+    }
+}
